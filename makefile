@@ -2,7 +2,7 @@ IDIR =./inc
 CC=gcc
 CFLAGS=-I$(IDIR)
 
-ODIR=obj
+ODIR=~/jenkins/output
 LDIR =../lib
 
 LIBS=-lm
@@ -17,7 +17,7 @@ OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 $(ODIR)/%.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-hellomake: $(OBJ)
+$(ODIR)/hellomake: $(OBJ)
 	gcc -o $@ $^ $(CFLAGS) $(LIBS)
 
 .PHONY: clean
