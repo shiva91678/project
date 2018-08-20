@@ -1,1 +1,3 @@
 # project
+
+# testing GIT commands
