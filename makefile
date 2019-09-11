@@ -2,7 +2,7 @@ IDIR =./inc
 CC=gcc
 CFLAGS=-I$(IDIR)
 
-ODIR=/home/shiva/jenkins/output
+ODIR=./output
 LDIR =../lib
 
 LIBS=-lm
