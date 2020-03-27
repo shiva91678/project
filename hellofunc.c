@@ -17,11 +17,3 @@ void myPrintHelloMake(void) {
 //from the branch csk_test
 //from the branch csk_test
 //from the branch csk_test
-//from the branch csk_test
-//from the branch csk_test
-//from the branch csk_test
-//from the branch csk_test
-//from the branch csk_test
-//from the branch csk_test
-//from the branch csk_test
-//from the branch csk_test
