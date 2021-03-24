@@ -1,6 +1,6 @@
 [submodule "submod-1"]
-	path = submod-1
+	path = output/submod-1
 	url = https://github.com/shiva91678/submod-1
 [submodule "submod-2"]
-	path = submod-2
+	path = output/submod-2
 	url = https://github.com/shiva91678/submod-2
