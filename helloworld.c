@@ -10,3 +10,7 @@ int main ()
   printf("hello world from GITHUB\n"); 
 return 0;
 }
+
+//squash test 2 - commit 1
+//squash test 2 - commit 2
+//squash test 2 - commit 3
